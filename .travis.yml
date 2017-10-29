@@ -1,8 +1,5 @@
-{
-  "language": "c++",
-  "group": "stable",
-  "dist": "trusty",
-  "os": "linux"	
-}
-
-script: "g++ hello.cpp -o hi"
+language: cpp
+compiler:
+	- gcc
+script:
+	- g++ hello.cpp -o hi
