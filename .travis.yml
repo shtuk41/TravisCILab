@@ -2,6 +2,7 @@
   "language": "c++",
   "group": "stable",
   "dist": "trusty",
-  "os": "linux"
-  "script": "g++ hello.cpp -o hi"	
+  "os": "linux"	
 }
+
+script: "g++ hello.cpp -o hi"
